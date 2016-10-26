@@ -9,3 +9,7 @@ function draw() {
   fill(100);
   rect(0, 0, 600, 600);
 }
+
+function initializePopulation() {
+
+}
