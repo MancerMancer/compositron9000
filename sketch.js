@@ -1,15 +1,21 @@
-
 //Set up website layout and add files, link to shit
 //Run initial population creation, randomized draw.
+
+var pop;
+
 function setup() {
   createCanvas(600, 600);
+  pop = new Population();
 }
 
 function draw() {
-  fill(100);
-  rect(0, 0, 600, 600);
-}
+  background(0);
+  population.run;
 
-function initializePopulation() {
+  //receive results from interface
+  //if completer run: {
+  //population.selection();
+  //}
 
+  //draw interface objects
 }
