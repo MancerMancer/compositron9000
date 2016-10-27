@@ -4,9 +4,11 @@
 var pop;
 
 function setup() {
+
   createCanvas(600, 600);
   song = new Song();
   pop = new Population();
+
 }
 
 function draw() {
